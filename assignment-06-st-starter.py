@@ -9,7 +9,7 @@ st.title('Titanic APP by Miaomiao Hou')
 
 # read csv and show the dataframe
 df = pd.read_csv('train.csv')
-
+df
 # create a figure with three subplots, size should be (15, 5)
 plt.style.use('seaborn')
 st.subheader('The Box Plot For Ticket Price with Different Classes')
